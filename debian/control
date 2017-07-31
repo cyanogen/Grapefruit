@@ -1,0 +1,33 @@
+Source: grapefruit
+Maintainer: Steve Kondik <shade@chemlab.org>
+Section: python
+Priority: optional
+Build-Depends: dh-python, python3-setuptools, python3-all, debhelper (>= 9), python3-d2to1
+Standards-Version: 3.9.6
+Homepage: https://github.com/xav/Grapefruit/
+
+Package: python3-grapefruit
+Architecture: all
+Depends: ${misc:Depends}, ${python3:Depends}
+Description: A module to manipulate color information easily.
+ ==========
+ GrapeFruit
+ ==========
+ .
+ .. image:: https://img.shields.io/pypi/v/grapefruit.svg?style=flat
+    :target: https://pypi.python.org/pypi/grapefruit/
+    :alt: Latest PyPI version
+ .
+ .. image:: https://img.shields.io/travis/xav/Grapefruit/master.svg?style=flat
+    :target: https://travis-ci.org/xav/grapefruit/
+    :alt: Travis CI build status
+ .
+ .. image:: https://coveralls.io/repos/github/xav/Grapefruit/badge.svg?branch=master&style=flat
+    :target: https://coveralls.io/github/xav/Grapefruit?branch=master
+    :alt: Test coverage
+ .
+ .. image:: https://img.shields.io/github/license/xav/Grapefruit.svg?style=flat
+    :alt: License
+ .
+ GrapeFruit is a pure Python module that let you easily manipulate and convert color information.
+

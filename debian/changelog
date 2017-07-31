@@ -1,0 +1,11 @@
+grapefruit (0.1a4-1ubuntu1) artful; urgency=medium
+
+  * Upload for Artful 
+
+ -- Steve Kondik <shade@chemlab.org>  Mon, 31 Jul 2017 02:10:00 -0700
+
+grapefruit (0.1a4-1) yakkety; urgency=low
+
+  * source package automatically created by stdeb 0.8.5
+
+ -- Steve Kondik <shade@chemlab.org>  Mon, 13 Feb 2017 03:57:35 -0800
